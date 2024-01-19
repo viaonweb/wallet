@@ -20,13 +20,13 @@ export function Counter() {
 
       <Card>
         <FlexBoxCol>
-          <h3>Counter</h3>
+          <h3>账户信息</h3>
           <FlexBoxRow>
-            <b>Address</b>
+            <b>地址: </b>
             <Ellipsis>{address}</Ellipsis>
           </FlexBoxRow>
           <FlexBoxRow>
-            <b>Value</b>
+            <b>数量: </b>
             <div>{value ?? "Loading..."}</div>
           </FlexBoxRow>
           <Button
@@ -36,7 +36,7 @@ export function Counter() {
               sendIncrement();
             }}
           >
-            Increment
+            充值
           </Button>
         </FlexBoxCol>
       </Card>

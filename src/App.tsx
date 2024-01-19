@@ -38,14 +38,14 @@ function App() {
             <Button>
               {network
                 ? network === CHAIN.MAINNET
-                  ? "mainnet"
-                  : "testnet"
-                : "N/A"}
+                  ? "正式"
+                  : "测试"
+                : "未连接"}
             </Button>
           </FlexBoxRow>
           <Counter />
           <TransferTon />
-          <Jetton />
+          {/* <Jetton /> */}
         </FlexBoxCol>
       </AppContainer>
     </StyledApp>
