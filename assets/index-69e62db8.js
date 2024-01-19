@@ -1198,4 +1198,4 @@ Values:
 `,xce=as.div`
   max-width: 900px;
   margin: 0 auto;
-`;function Mce(){const{network:e}=Au();return Xt(wce,{children:Xt(xce,{children:_i(sg,{children:[_i(fu,{children:[Xt(_B,{}),Xt(ug,{children:e?e===$s.MAINNET?"mainnet":"testnet":"N/A"})]}),Xt(pce,{}),Xt(bce,{}),Xt(yce,{})]})})})}const _ce="https://raw.githubusercontent.com/getbeebot/miniapp-web/main/public/tonconnect-manifest.json",Sce=new DU({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});y4.createRoot(document.getElementById("root")).render(Xt(LZ,{manifestUrl:_ce,children:Xt(iD,{client:Sce,children:Xt(Mce,{})})}));
+`;function Mce(){const{network:e}=Au();return Xt(wce,{children:Xt(xce,{children:_i(sg,{children:[_i(fu,{children:[Xt(_B,{}),Xt(ug,{children:e?e===$s.MAINNET?"mainnet":"testnet":"N/A"})]}),Xt(pce,{}),Xt(bce,{}),Xt(yce,{})]})})})}const _ce="https://github.com/viaonweb/wallet/blob/main/public/tonconnect-manifest.json",Sce=new DU({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});y4.createRoot(document.getElementById("root")).render(Xt(LZ,{manifestUrl:_ce,children:Xt(iD,{client:Sce,children:Xt(Mce,{})})}));
