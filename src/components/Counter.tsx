@@ -13,11 +13,19 @@ import {
 export function Counter() {
   const { connected } = useTonConnect();
   const { value, address, sendIncrement } = useCounterContract();
-
+  const handleBtn = () => {
+    //@ts-ignore
+    window.Telegram.WebApp.openLink('https://telegram.org/faq');
+  };
+  const handleX = () => {
+    //@ts-ignore
+    window.Telegram.WebApp.openLink('http://x.getbeebot.com/login');
+  }
   return (
     <div className="Container">
       <TonConnectButton />
-
+        <h5 onClick={handleBtn}>btn</h5>
+        <h4 onClick={handleX}>twitter</h4>
       <Card>
         <FlexBoxCol>
           <h3>账户信息</h3>
