@@ -1830,6 +1830,11 @@ vm-browserify@^1.0.1:
   resolved "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+wallet-pay@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/wallet-pay/-/wallet-pay-1.1.4.tgz#5466a88b3600bf441810f383808cc52d97c5de7c"
+  integrity sha512-L/iX3da8Ov77qri2AjiG4FAwXHPFroj9rNIWoAwD8TqZDVIRJtl4cLcuzjOUa0XO3xeL1luIaGz7HeOSxO1PHg==
+
 webidl-conversions@^3.0.0:
   version "3.0.1"
   resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"

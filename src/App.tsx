@@ -1,4 +1,6 @@
+// @ts-nocheck
 import "./App.css";
+import { WalletPay } from "wallet-pay";
 import { TonConnectButton } from "@tonconnect/ui-react";
 import { Counter } from "./components/Counter";
 import { Jetton } from "./components/Jetton";
@@ -28,7 +30,23 @@ const AppContainer = styled.div`
 
 function App() {
   const { network } = useTonConnect();
+  const handlePay = () => {
+    const wallet = new WalletPay("Store token");
 
+    return wallet.createOrder({
+      amount: {
+        currencyCode: "USD",
+        amount: "1.00",
+      },
+      description: "bee bot seller test lee",
+      // returnUrl: "https://t.me/wallet",
+      // failReturnUrl: "https://t.me/wallet",
+      customData: "client_ref=4E89",
+      externalId: "ORD-5023-4E89",
+      timeoutSeconds: 10800,
+      customerTelegramUserId: 0,
+    });
+  };
   return (
     <StyledApp>
       <AppContainer>
@@ -45,6 +63,9 @@ function App() {
           </FlexBoxRow>
           <Counter />
           <TransferTon />
+          <button onClick={handlePay}>
+              wallet pay
+          </button>
           {/* <Jetton /> */}
         </FlexBoxCol>
       </AppContainer>
