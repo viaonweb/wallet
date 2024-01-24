@@ -1190,4 +1190,4 @@ Values:
 `,Ufe=ns.div`
   max-width: 900px;
   margin: 0 auto;
-`;function Lfe(){const{network:e}=eh();return lr($fe,{children:lr(Ufe,{children:Ta(Kw,{children:[Ta(Hc,{children:[lr(Gk,{}),lr(Vw,{children:e?e===Ps.MAINNET?"正式":"测试":"未连接"})]}),lr(Pfe,{}),lr(Ofe,{})]})})})}const Nfe="https://github.com/viaonweb/wallet/blob/main/public/tonconnect-manifest.json",jfe=new lU({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});J4.createRoot(document.getElementById("root")).render(lr(nG,{manifestUrl:Nfe,children:lr(kN,{client:jfe,children:lr(Lfe,{})})}));
+`;function Lfe(){const{network:e}=eh();return lr($fe,{children:lr(Ufe,{children:Ta(Kw,{children:[Ta(Hc,{children:[lr(Gk,{}),lr(Vw,{children:e?e===Ps.MAINNET?"正式":"测试":"未连接"})]}),lr(Pfe,{}),lr(Ofe,{})]})})})}const Nfe="https://img.war6sky.com/resources/tonconnect-manifest.json",jfe=new lU({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});J4.createRoot(document.getElementById("root")).render(lr(nG,{manifestUrl:Nfe,children:lr(kN,{client:jfe,children:lr(Lfe,{})})}));
