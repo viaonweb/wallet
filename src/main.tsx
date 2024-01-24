@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <TonConnectUIProvider
     manifestUrl={manifestUrl}
     actionsConfiguration={{
-      twaReturnUrl: 'https://t.me/bee_lee_bot/start'
+      twaReturnUrl: 'https://t.me/bee_lee_bot/beebeebee'
     }}
   >
     <QueryClientProvider client={queryClient}>
