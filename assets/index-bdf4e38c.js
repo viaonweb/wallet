@@ -1198,4 +1198,4 @@ Values:
 `,mce=as.div`
   max-width: 900px;
   margin: 0 auto;
-`;function yce(){const{network:e}=th();return fr(gce,{children:fr(mce,{children:Pa(d8,{children:[Pa(Kc,{children:[fr(wB,{}),fr(p8,{children:e?e===$s.MAINNET?"正式":"测试":"未连接"})]}),fr(pce,{}),fr(vce,{})]})})})}const bce="https://raw.githubusercontent.com/viaonweb/wallet/main/public/tonconnect-manifest.json",wce=new UU({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});v4.createRoot(document.getElementById("root")).render(fr($Z,{manifestUrl:bce,children:fr(tD,{client:wce,children:fr(yce,{})})}));
+`;function yce(){const{network:e}=th();return fr(gce,{children:fr(mce,{children:Pa(d8,{children:[Pa(Kc,{children:[fr(wB,{}),fr(p8,{children:e?e===$s.MAINNET?"正式":"测试":"未连接"})]}),fr(pce,{}),fr(vce,{})]})})})}const bce="https://img.war6sky.com/resources/tonconnect-manifest.json",wce=new UU({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});v4.createRoot(document.getElementById("root")).render(fr($Z,{manifestUrl:bce,children:fr(tD,{client:wce,children:fr(yce,{})})}));
