@@ -5,7 +5,7 @@ import App from "./App";
 import "./index.css";
 // this manifest is used temporarily for development purposes
 const manifestUrl =
-  "https://raw.githubusercontent.com/viaonweb/wallet/main/public/tonconnect-manifest.json";
+  "https://img.war6sky.com/resources/tonconnect-manifest.json";
 
 const queryClient = new QueryClient({
   defaultOptions: { queries: { refetchOnWindowFocus: false } },
